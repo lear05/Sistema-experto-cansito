@@ -1,0 +1,135 @@
+.sp{
+    padding:0px;
+}
+.effect{
+    transition:all .3s ease-in;
+}
+
+.box-producto{
+	border:1px solid;
+	position:relative;
+}
+
+.box-producto img{
+	height:10em;
+}
+
+.box-producto button{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.link-box{
+	text-decoration:none;
+}
+
+.icon-added{
+    font-size: 1.7em;
+    background: #FFFFFF;
+    padding: 10px;
+    border: solid #5E9AB3 2px;
+    border-radius: 100px;
+	position: absolute !important;
+    color: #5E9AB3;
+    top: 4%;
+    right: 4%;
+}
+
+.popover.right {
+    margin-left: -4px;
+}
+
+.box-producto:hover{
+    box-shadow:3px 3px 3px #3c8dbc;
+}
+
+.option-selected{
+    list-style:none;
+    padding:0px;
+}
+
+.option-selected li{
+    display:inline-block !important;
+}
+
+.cantidad-producto{
+    width:100%;
+    text-align:center;
+}
+
+.option-selected li:nth-child(2){
+    width:40%;
+}
+
+.btn-action{
+    padding: 3px 5px;
+    margin-top:-1px;
+}
+
+.put-producto, .container-img-action img{
+    /*position:absolute;
+    width:100%;*/
+    /*transform: translate(0%, -50%);
+    -webkit-transform: translate(0%, -50%);
+    -moz-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    -o-transform: translate(0%, -50%);*/
+}
+.container-img-action, .container-action{
+    position:relative;
+}
+#put-productos>.row{
+    margin:0px;
+    padding: 4% 0px;
+    box-shadow: 0px 2px 1px #F0F0EF;
+}
+.btn-action{
+    margin-top: -2px;
+}
+.descripcion-pro{
+    position: absolute;
+    box-shadow: 0px 0px 3px #333;
+    top: 50%;
+    right: -110%;
+    width: 100%;
+    z-index: 1;
+    transform: translate(0%, -50%);
+    -webkit-transform: translate(0%, -50%);
+    -moz-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    -o-transform: translate(0%, -50%);
+    box-sizing: border-box;
+    padding: 2%;
+    border-radius: 2%;
+    background: #FFF;
+    display:none;
+}
+
+.descripcion-pro .tri{
+    background:#fff;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 15px solid rgba(179, 179, 179, 0.43);;
+    position: absolute;
+    top: 50%;
+    left: -13px;
+    transform: translate(0%, -50%);
+    -webkit-transform: translate(0%, -50%);
+    -moz-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    -o-transform: translate(0%, -50%);
+    color:#000;
+    z-index:0;
+}
+
+.descripcion-pro h4, .descripcion-pro p{
+    color:#000;
+}
